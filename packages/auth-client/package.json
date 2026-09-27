@@ -1,0 +1,14 @@
+{
+  "name": "@exam-portal/auth-client",
+  "version": "1.0.0",
+  "description": "Verify exam-auth-service access tokens and authorize Express requests",
+  "type": "module",
+  "main": "index.js",
+  "exports": { ".": "./index.js" },
+  "engines": { "node": ">=18.18" },
+  "dependencies": {
+    "jose": "^5.9.6"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
